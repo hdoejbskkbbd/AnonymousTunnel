@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onVpnReady() {
-        Intent service = new Intent(this, VpnService.class);
+        Intent service = new Intent(this, AnonymousVpnService.class);
         startService(service);
         isConnected = true;
         tvStatus.setText("Connected");
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void stopVpn() {
-        Intent service = new Intent(this, VpnService.class);
+        Intent service = new Intent(this, AnonymousVpnService.class);
         stopService(service);
         isConnected = false;
         tvStatus.setText("Disconnected");
