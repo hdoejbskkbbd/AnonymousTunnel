@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AnonymousTunnel" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:colorBackground">#0D0D0D</item>
+        <item name="android:windowBackground">#0D0D0D</item>
+    </style>
+</resources>
